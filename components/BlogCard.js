@@ -1,7 +1,7 @@
 import Link  from "next/link";
 import styles from "../src/styles/BlogCard.module.css"
 
-export default function BlogPost({title, author, datePublished, coverPhoto, slug}){
+export default function BlogPost({title, datePublished, excerpt, slug}){
     return(
         <div className={styles.card}>
             <Link href={"/posts/" + slug}>
@@ -9,7 +9,7 @@ export default function BlogPost({title, author, datePublished, coverPhoto, slug
                 <h2>{title}</h2>
                 <div className={styles.details}>
                     <div classname={styles.author}>
-                        
+                        <h3>{excerpt}</h3>
                         <h3>{datePublished}</h3>
                     </div>
                 </div>

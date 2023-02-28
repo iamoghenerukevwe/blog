@@ -13,6 +13,7 @@ const QUERY = gql`
         title,
         datePublished,
         slug,
+        excerpt,
         coverPhoto{
           url
         },
@@ -60,7 +61,7 @@ export default function Home({posts}) {
           <BlogCard
           title = {post.title}
           author = {post.author}
-          coverPhoto = {post.coverPhoto}
+          excerpt = {post.excerpt}
           key = {post.id}
           datePublished = {post.datePublished}
           slug = {post.slug}
