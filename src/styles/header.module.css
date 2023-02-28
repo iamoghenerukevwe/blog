@@ -1,4 +1,21 @@
 .header{
-    height: 40vh;
+    height: 60vh;
     background-color: #00263C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.primary{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3em;
+}
+.subtext{
+    font-family: Montserrat Alternates;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-top: 2vh;
 }

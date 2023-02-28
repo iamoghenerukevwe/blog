@@ -5,11 +5,6 @@ export default function BlogPost({title, author, datePublished, coverPhoto, slug
     return(
         <div className={styles.card}>
             <Link href={"/posts/" + slug}>
-                <div className={styles.imgContainer}>
-                    <img src = {coverPhoto.url} alt="" />
-
-                </div>
-            </Link>
             <div className={styles.text}>
                 <h2>{title}</h2>
                 <div className={styles.details}>
@@ -19,6 +14,8 @@ export default function BlogPost({title, author, datePublished, coverPhoto, slug
                     </div>
                 </div>
             </div>
+            </Link>
+            
         </div>
     )
 }
