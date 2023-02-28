@@ -8,6 +8,6 @@ export default function Header() {
      <div className={styles.subtext}>Here I share my perspective and assistance on tech topics, green energy, <br/>technical writing and everything in between</div>
 
     </section>
-  );
+  )
 }
 

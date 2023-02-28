@@ -1,5 +1,12 @@
+.blog{
+  background-color: black;
+  color: white;
+}
+
 .title {
   padding-top: 1rem;
+  color: black;
+  background-color: black;
 }
 
 .title h2 {

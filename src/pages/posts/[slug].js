@@ -24,10 +24,7 @@ const QUERY = gql`
         content{
           html
         }
-        coverPhoto{
-          id,
-          url
-        }
+        
       }
     }
 `;
@@ -63,21 +60,8 @@ export async function getStaticProps({ params }) {
 export default function BlogPost({ post }) {
   return (
     <main className={styles.blog}>
-      <img
-        className={styles.cover}
-        src={post.coverPhoto.url}
-        alt={post.title}
-      />
+     
       <div className={styles.title}>
-        <div className={styles.authdetails}>
-          <img src={post.author} alt={post.author} />
-          <div className={styles.authtext}>
-            <h6>By {post.author} </h6>
-            <h6 className={styles.date}>
-              {moment(post.datePublished).format("MMMM d, YYYY")}
-            </h6>
-          </div>
-        </div>
         <h2>{post.title}</h2>
       </div>
 

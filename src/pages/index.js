@@ -14,9 +14,6 @@ const QUERY = gql`
         datePublished,
         slug,
         excerpt,
-        coverPhoto{
-          url
-        },
         content{
           html
         }
@@ -71,5 +68,5 @@ export default function Home({posts}) {
         
       </main>
     </>
-  );
+  )
 }
