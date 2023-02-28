@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import {GraphQLClient, gql} from 'graphql-request';
 import BlogCard from 'components/BlogCard';
+import Nav from "../../components/Nav";
 
 const graph = new GraphQLClient('https://api-us-east-1.hygraph.com/v2/clbogk62k0d0x01uq8rcf36i8/master')
 
@@ -48,6 +49,8 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+      
+        <Nav />
         
         {posts.map((post) => (
           <BlogCard
