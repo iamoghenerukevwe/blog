@@ -1,12 +1,13 @@
 .header{
     height: 60vh;
-    background-color: #001a29;
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 10vw;
 }
 .primary{
     font-family: Montserrat;
@@ -15,7 +16,7 @@
 }
 .subtext{
     font-family: Montserrat Alternates;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
     line-height: 1.5;
     padding-top: 2vh;
