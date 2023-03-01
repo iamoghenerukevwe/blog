@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #001a29;
+    height: 7vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat Alternates;  
+  
+}

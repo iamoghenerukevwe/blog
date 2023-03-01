@@ -6,7 +6,10 @@ function Nav() {
     <nav className={styles.navbar}>
 
       <Link href="/">airdward</Link>
-      <Link href="/">Home</Link>
+      <div className={styles.buttton}>
+      <Link href="/" >Home</Link>
+      </div>
+      
       <Link href="/">Resume</Link>
 
     </nav>

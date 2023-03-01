@@ -4,6 +4,7 @@ import {GraphQLClient, gql} from 'graphql-request';
 import BlogCard from 'components/BlogCard';
 import Nav from "../../components/Nav";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const graph = new GraphQLClient('https://api-us-east-1.hygraph.com/v2/clbogk62k0d0x01uq8rcf36i8/master')
 
@@ -67,6 +68,7 @@ export default function Home({posts}) {
         ))}
         
       </main>
+      <Footer/>
     </>
   )
 }
