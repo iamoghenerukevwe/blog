@@ -1,12 +1,12 @@
 .blog{
-  background-color: black;
+  background-color: rgb(187, 172, 172);
   color: white;
 }
 
 .title {
   padding-top: 1rem;
   color: black;
-  background-color: black;
+  background-color: rgb(191, 158, 158);
 }
 
 .title h2 {

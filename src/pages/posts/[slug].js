@@ -1,5 +1,5 @@
 
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/slug.module.css'
 import {GraphQLClient, gql} from 'graphql-request';
 import moment from "moment";
 
@@ -65,10 +65,15 @@ export default function BlogPost({ post }) {
         <h2>{post.title}</h2>
       </div>
 
+      <div className={styles.contain}>
+        
       <div
         className={styles.content}
         dangerouslySetInnerHTML={{ __html: post.content.html }}
       ></div>
+
+      <div className={styles.about}></div>  
+      </div>
     </main>
   )
 }
