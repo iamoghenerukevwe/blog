@@ -39,18 +39,19 @@
   text-align: justify;
   padding: 0 2rem;
   font-size: .8em;
+  border: 10px red;
+  line-height: 1.7;
 }
 
 .content img {
-  width: 40rem;
-  height: 40rem;
-  padding: 1rem;
+  width: 25rem;
+  height: 15rem;
   background-color: red;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .about{
-  width: 150vw;
+  width: 80vw;
   height: 10vh;
   background-color: red;
 }
