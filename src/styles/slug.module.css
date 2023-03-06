@@ -37,22 +37,24 @@
 .content{
   font-family: Montserrat;
   text-align: justify;
-  padding: 0 2rem;
+  padding-right: 8rem;
+  padding-left: 2rem;
   font-size: .8em;
   border-right: thin solid rgb(203, 203, 203);
   line-height: 1.7;
 }
 
 .content img {
-  width: 25rem;
-  height: 15rem;
+  width: 45rem;
+  height: 25rem;
   object-fit: cover;
+  padding: 2rem 0;
 }
 
 .about{
-  width: 80vw;
+  width: 100vw;
   height: 10vh;
-  background-color: red;
+  
 }
 
 @media screen and (max-width: 768px) {
