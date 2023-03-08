@@ -63,6 +63,7 @@ export default function BlogPost({ post }) {
      
       <div className={styles.title}>
         <h2>{post.title}</h2>
+        <h3>{post.datePublished}</h3>
       </div>
 
       <div className={styles.contain}>

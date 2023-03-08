@@ -5,9 +5,9 @@
 }
 
 .title {
-  padding-top: 1rem;
-  color: black;
-  font-family: Lato;
+  padding: 0 0 1rem 0;
+  font-family: Exo;
+  font-weight: 700;
   margin-left: 7rem;
   font-size: 1em;
   font-weight: 800;
@@ -15,9 +15,13 @@
 
 .title h2 {
   padding-top: 1rem;
-  padding-bottom: 2rem;
 }
 
+.title h3{
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 100;
+}
 
 .blog code {
   font-size: 1.2rem;
@@ -35,18 +39,21 @@
   padding: 0 5rem;
 }
 .content{
-  font-family: Montserrat;
+  font-family: Andika;
   text-align: justify;
   padding-right: 8rem;
   padding-left: 2rem;
-  font-size: .8em;
+  font-size: 1em;
   border-right: thin solid rgb(203, 203, 203);
   line-height: 1.7;
 }
-
+.indent{
+  padding: 2rem;
+  background-color: red;
+}
 .content img {
   width: 45rem;
-  height: 25rem;
+  height: 35rem;
   object-fit: cover;
   padding: 2rem 0;
 }
